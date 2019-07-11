@@ -11,8 +11,8 @@
   "author": "Grafana Labs",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@grafana/data": "^6.3.0-alpha.32",
-    "@grafana/toolkit": "latest",
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "next",
     "@grafana/ui": "latest"
   }
 }
