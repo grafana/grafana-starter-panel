@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "Simple Panel",
-  "id": "orgid-simple-panel",
+  "id": "myorgid-simple-panel",
 
   "info": {
     "description": "Simple React Panel",
