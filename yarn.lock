@@ -726,9 +726,9 @@
   integrity sha512-SHvtDQuJ+LorjkF3bGkTdq2mCW2OmExhMlvhQRH+6qwbodoARqD/8X3dKFLw9D+PwW0H4nFYk2LQbdZKQXZRNw==
 
 "@grafana/toolkit@next":
-  version "6.4.0-alpha.32"
-  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.4.0-alpha.32.tgz#128fc42c37a446a7d9109ac052ae90bd322b46b5"
-  integrity sha512-weaSdrVBLj8uIKP7jYpULWIWr6od73ZlDn5B+p71DMqmacYk8uk9U7BZ3f12/uIeLDesMtooUIpT09KbBSBF7w==
+  version "6.4.0-alpha.33"
+  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.4.0-alpha.33.tgz#b7804f666c47c240e02898449a8bdbd3e597ca76"
+  integrity sha512-JpNWAMGiwcVDO1vDqb5+VqQdVesUzIjhYAdErZpCbE/1/TZmUYAY6RjXSbuJGf9f+9TvGZQjzjHHjtljHnXoWA==
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/preset-env" "7.4.5"
@@ -1352,9 +1352,9 @@
     "@types/webpack" "*"
 
 "@types/webpack@*":
-  version "4.32.0"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.32.0.tgz#bd4a149964cd471538f2781f2be5f9815175463b"
-  integrity sha512-kpz5wHDyG/WEpzX9gcwFp/w0oSsq0n/rmFdJelk/QBMHmNIOZdiTDInV0Lj8itGKBahQrBgJGJRss/6UHgLuKg==
+  version "4.32.1"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.32.1.tgz#6e95010e806f808abd6551c112097ac09035aacf"
+  integrity sha512-9n38CBx9uga1FEAdTipnt0EkbKpsCJFh7xJb1LE65FFb/A6OOLFX022vYsGC1IyVCZ/GroNg9u/RMmlDxGcLIw==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
