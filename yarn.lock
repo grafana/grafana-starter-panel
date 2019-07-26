@@ -726,9 +726,9 @@
   integrity sha512-SHvtDQuJ+LorjkF3bGkTdq2mCW2OmExhMlvhQRH+6qwbodoARqD/8X3dKFLw9D+PwW0H4nFYk2LQbdZKQXZRNw==
 
 "@grafana/toolkit@next":
-  version "6.4.0-alpha.33"
-  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.4.0-alpha.33.tgz#b7804f666c47c240e02898449a8bdbd3e597ca76"
-  integrity sha512-JpNWAMGiwcVDO1vDqb5+VqQdVesUzIjhYAdErZpCbE/1/TZmUYAY6RjXSbuJGf9f+9TvGZQjzjHHjtljHnXoWA==
+  version "6.4.0-alpha.41"
+  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.4.0-alpha.41.tgz#3be21643862ca63fb1bb0fa281abcb13b643ebd4"
+  integrity sha512-+ANXPgNjI+zr04F3sRGteN13ICwRvFcfsnYa7J//XG44hQVbASEsF8Bubb9c5nLzyDq73Gf51mL6RQTYNP794g==
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/preset-env" "7.4.5"
@@ -792,7 +792,7 @@
     tslib "1.10.0"
     tslint "5.14.0"
     tslint-config-prettier "^1.18.0"
-    typescript "3.5.1"
+    typescript "3.5.3"
     url-loader "^2.0.1"
     webpack "4.35.0"
 
@@ -1251,9 +1251,9 @@
     "@types/puppeteer" "*"
 
 "@types/puppeteer@*":
-  version "1.12.4"
-  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-1.12.4.tgz#8388efdb0b30a54a7e7c4831ca0d709191d77ff1"
-  integrity sha512-aaGbJaJ9TuF9vZfTeoh876sBa+rYJWPwtsmHmYr28pGr42ewJnkDTq2aeSKEmS39SqUdkwLj73y/d7rBSp7mDQ==
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/@types/puppeteer/-/puppeteer-1.19.0.tgz#59f0050bae019cee7c3af2bb840a25892a3078b6"
+  integrity sha512-Db9LWOuTm2bR/qgPE7PQCmnsCQ6flHdULuIDWTks8YdQ/SGHKg5WGWG54gl0734NDKCTF5MbqAp2qWuvBiyQ3Q==
   dependencies:
     "@types/node" "*"
 
@@ -1844,9 +1844,9 @@ autoprefixer@^9.4.9:
     postcss-value-parser "^4.0.0"
 
 aws-sdk@^2.495.0:
-  version "2.498.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.498.0.tgz#42e05965166a01b45e026e4922926df4cd160fc5"
-  integrity sha512-xyIBgPylTWGfwOUgDzXMIcB5uVdBfTAfA+cOEl/tCsq88kNm4LWuZtv/O9g5hZYFQeUViQMiRwpFUAf9v8rcCQ==
+  version "2.500.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.500.0.tgz#2e4c5b7027c2d583fd0018f0aeed712cea135f7f"
+  integrity sha512-zVSO6STyBbbn5foqiH8Z0agpudtOibSRLhTXNkVnJTwJwYK5f9mv5WKOKcLivx/fvXwVE8QehZWyE3vBzl8I+w==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -9286,10 +9286,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
-  integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
+typescript@3.5.3:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
+  integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
 ua-parser-js@^0.7.18:
   version "0.7.20"
