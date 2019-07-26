@@ -11,7 +11,7 @@
     "keywords": ["Simple"],
     "logos": {
       "small": "img/logo.svg",
-      "large": "img/logo.png"
+      "large": "img/logo.svg"
     },
     "links": [
       {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
