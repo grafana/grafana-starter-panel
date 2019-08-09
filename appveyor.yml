@@ -17,5 +17,5 @@ test_script:
   - npm --version
 
 # Run the build
-build:
+build_script:
   - yarn build
