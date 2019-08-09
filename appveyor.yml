@@ -2,6 +2,10 @@
 environment:
   nodejs_version: "10"
 
+# Local NPM Modules
+cache:
+  - node_modules
+
 # Install scripts. (runs after repo cloning)
 install:
   # Get the latest stable version of Node.js or io.js
@@ -18,4 +22,5 @@ test_script:
 
 # Run the build
 build_script:
-  - yarn build
+  - yarn dev   # make sure both scripts work
+  - yarn build # make sure both scripts work
