@@ -1,7 +1,6 @@
 # Simple React Panel
 
-This is just a stub to show how to create a basic visualization plugin
-
+This is just a stub to show how you can create a basic visualization plugin.
 
 To work with this plugin run:
 ```
