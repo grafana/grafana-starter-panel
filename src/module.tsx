@@ -1,10 +1,6 @@
-import React, { PureComponent } from 'react';
-import { PanelProps, PanelPlugin } from '@grafana/ui';
+import { PanelPlugin } from '@grafana/ui';
+import { SimpleOptions, defaults } from './types';
+import { SimplePanel } from './SimplePanel';
+import { SimpleEditor } from './SimpleEditor';
 
-export class MyPanel extends PureComponent<PanelProps> {
-  render() {
-    return <div>Hello from my panel</div>;
-  }
-}
-
-export const plugin = new PanelPlugin(MyPanel);
+export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setDefaults(defaults).setEditor(SimpleEditor);
