@@ -1,4 +1,4 @@
-import { PanelPlugin } from '@grafana/ui';
+import { PanelPlugin } from '@grafana/data';
 import { SimpleOptions, defaults } from './types';
 import { SimplePanel } from './SimplePanel';
 import { SimpleEditor } from './SimpleEditor';
