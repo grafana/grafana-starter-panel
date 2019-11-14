@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { PanelProps } from '@grafana/ui';
+import { PanelProps } from '@grafana/data';
 import { SimpleOptions } from 'types';
 
 interface Props extends PanelProps<SimpleOptions> {}
