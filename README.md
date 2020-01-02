@@ -2,6 +2,12 @@
 
 This is just a stub to show how you can create a basic visualization plugin.
 
+First, use this to install the module dpendencies:
+
+```
+yarn
+```
+
 To work with this plugin run:
 ```
 yarn dev
