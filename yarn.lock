@@ -807,10 +807,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
   integrity sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==
 
-"@grafana/data@6.5.0-beta.1", "@grafana/data@next":
-  version "6.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-6.5.0-beta.1.tgz#7ac0f2aca97ae11eb103950cc3d76c1e75316f46"
-  integrity sha512-+5DfyzTmnbwBaL7k+YLbCjxmORRZpql8ohSZ48ncfbbMkF5AM8o3LTymCwLBLMP+e8SF65Gd0FiJPPtvVf6vuw==
+"@grafana/data@6.5.2", "@grafana/data@latest":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@grafana/data/-/data-6.5.2.tgz#31117e5b43034fcb3cd6dcbc7c05d08f284e5d85"
+  integrity sha512-695jP9Rdc9yAtnFMHKG5OGO5WTLpnRnwJNGqHjxDOczRWnsQBALdJZHnfvEL1G5W0YW5s+51WzO9eAa5KkgF+A==
 
 "@grafana/slate-react@0.22.9-grafana":
   version "0.22.9-grafana"
@@ -834,15 +834,15 @@
     tiny-invariant "^1.0.1"
     tiny-warning "^0.0.3"
 
-"@grafana/toolkit@next":
-  version "6.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.5.0-beta.1.tgz#5cb4c5e893a5e1b0114f87d943f3667df3b7b761"
-  integrity sha512-/3p+3dlP41CvDnfio9E+cN1ZpGbiuWg1wiZQp2epbLwwq6ZWQ98Pnke6xwS5FJSIxKPXg4JVL6bDf48BJfy92A==
+"@grafana/toolkit@latest":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@grafana/toolkit/-/toolkit-6.5.2.tgz#9b1814ccbcb54f837e3eaef4713cc123ffa25794"
+  integrity sha512-cygbVuAkHGK7yaRtES0s2bQZUt+2dr7GVZO6hL9q56C1EqdZNVnljfFfqa2k8FBJvkJiTejgrRkpvuI3pg4d5w==
   dependencies:
     "@babel/core" "7.6.4"
     "@babel/preset-env" "7.6.3"
-    "@grafana/data" "6.5.0-beta.1"
-    "@grafana/ui" "6.5.0-beta.1"
+    "@grafana/data" "6.5.2"
+    "@grafana/ui" "6.5.2"
     "@types/command-exists" "^1.2.0"
     "@types/execa" "^0.9.0"
     "@types/expect-puppeteer" "3.3.1"
@@ -907,12 +907,12 @@
     url-loader "^2.0.1"
     webpack "4.35.0"
 
-"@grafana/ui@6.5.0-beta.1", "@grafana/ui@next":
-  version "6.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-6.5.0-beta.1.tgz#2182f8a548fa6f5f966916351b5cbd12278aac38"
-  integrity sha512-YOxH3bDDoPCsMAFi8tWLKOxUoKXvyCjlhyP0ebmqO6h42xAhMkJV0ec28sO+ianlCSg9vkn5dxDR4pUyUfQ81w==
+"@grafana/ui@6.5.2", "@grafana/ui@latest":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@grafana/ui/-/ui-6.5.2.tgz#1281fba13279267d54dbf3fc0df9877a950243fe"
+  integrity sha512-HzCN9g3jjvs1i/hnHglOM3h2XSlvf1TLfiZJAi9ZZJaQNZ95i5Y/CQ/JZN3pijYLhCtp8PBCQV1BX2H83vyvtw==
   dependencies:
-    "@grafana/data" "6.5.0-beta.1"
+    "@grafana/data" "6.5.2"
     "@grafana/slate-react" "0.22.9-grafana"
     "@torkelo/react-select" "2.1.1"
     "@types/react-color" "2.17.0"
