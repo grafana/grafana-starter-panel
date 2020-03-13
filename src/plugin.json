@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "Simple Panel",
-  "id": "myorgid-simple-panel",
+  "id": "grafana-simple-react-panel",
 
   "info": {
     "description": "Simple React Panel",
@@ -23,7 +23,7 @@
   },
 
   "dependencies": {
-    "grafanaVersion": "6.3.x",
+    "grafanaVersion": "6.6.x",
     "plugins": []
   }
 }

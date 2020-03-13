@@ -1,6 +1,6 @@
 {
-  "name": "simple-react-panel",
-  "version": "1.0.0",
+  "name": "grafana-simple-react-panel",
+  "version": "0.9.0-dev",
   "description": "Simple React Panel",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
@@ -8,16 +8,10 @@
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/grafana/simple-react-panel.git"
-  },
-  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
+  "private": true,
+  "repository": "github:grafana/simple-react-panel",
+  "author": "Grafana Labs",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
-    "email": "plugins@grafana.com"
-  },
   "devDependencies": {
     "@grafana/data": "next",
     "@grafana/toolkit": "next",
