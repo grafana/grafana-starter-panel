@@ -6,30 +6,32 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/1dee2585eb412f913cbb/maintainability)](https://codeclimate.com/github/grafana/simple-react-panel/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1dee2585eb412f913cbb/test_coverage)](https://codeclimate.com/github/grafana/simple-react-panel/test_coverage)
 
-This is just a stub to show how you can create a basic visualization plugin.
+Hello world showing series in Grafana panel.
 
-First, install dependencies:
+### Building this plugin
+
+This plugin uses [@grafana/toolkit](https://www.npmjs.com/package/@grafana/toolkit) to simplify building and packaging a plugin.
+
+Install module dependencies:
 
 ```BASH
-yarn install
+yarn
 ```
 
-To work with this plugin run:
+Build plugin in production mode:
+
+```BASH
+yarn build
+```
+
+Build plugin in development mode:
 
 ```BASH
 yarn dev
 ```
 
-or
+Build plugin in development mode, watching for changes:
 
 ```BASH
-yarn watch
-```
-
-This will run linting tools and apply prettier fix.
-
-To build the plugin run:
-
-```BASH
-yarn build
+yarn dev --watch
 ```
