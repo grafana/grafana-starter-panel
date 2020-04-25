@@ -1,7 +1,7 @@
 {
   "name": "simple-react-panel",
   "version": "1.0.0",
-  "description": "Simple React Panel",
+  "description": "Grafana Panel Plugin Template",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
@@ -16,14 +16,17 @@
     "email": "plugins@grafana.com"
   },
   "devDependencies": {
-    "@grafana/data": "next",
-    "@grafana/toolkit": "next",
-    "@grafana/ui": "next"
+    "@grafana/data": "canary",
+    "@grafana/toolkit": "canary",
+    "@grafana/ui": "canary"
   },
   "resolutions": {
     "@babel/preset-env": "7.9.0"
   },
   "engines": {
     "node": ">=12 <13"
+  },
+  "dependencies": {
+    "emotion": "10.0.27"
   }
 }

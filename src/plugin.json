@@ -1,14 +1,14 @@
 {
   "type": "panel",
-  "name": "Simple Panel",
+  "name": "Grafana Panel Plugin Template",
   "id": "myorgid-simple-panel",
 
   "info": {
-    "description": "Simple React Panel",
+    "description": "Grafana Panel Plugin Template",
     "author": {
       "name": "Your Name"
     },
-    "keywords": ["Simple"],
+    "keywords": ["panel", "template"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
