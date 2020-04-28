@@ -21,7 +21,8 @@
     "@grafana/ui": "canary"
   },
   "resolutions": {
-    "@babel/preset-env": "7.9.0"
+    "@babel/preset-env": "7.9.0",
+    "is-promise": "2.2.2"
   },
   "engines": {
     "node": ">=12 <13"
