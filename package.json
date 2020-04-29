@@ -16,9 +16,9 @@
     "email": "plugins@grafana.com"
   },
   "devDependencies": {
-    "@grafana/data": "canary",
-    "@grafana/toolkit": "canary",
-    "@grafana/ui": "canary"
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next"
   },
   "resolutions": {
     "@babel/preset-env": "7.9.0",
