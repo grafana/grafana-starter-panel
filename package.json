@@ -18,16 +18,10 @@
   "devDependencies": {
     "@grafana/data": "next",
     "@grafana/toolkit": "next",
-    "@grafana/ui": "next"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.9.0",
-    "is-promise": "2.2.2"
+    "@grafana/ui": "next",
+    "emotion": "10.0.27"
   },
   "engines": {
     "node": ">=12 <13"
-  },
-  "dependencies": {
-    "emotion": "10.0.27"
   }
 }
