@@ -16,9 +16,9 @@
     "email": "plugins@grafana.com"
   },
   "devDependencies": {
-    "@grafana/data": "7.0.1",
-    "@grafana/toolkit": "7.0.1",
-    "@grafana/ui": "7.0.1",
+    "@grafana/data": "^7.0.0",
+    "@grafana/toolkit": "^7.0.0",
+    "@grafana/ui": "^7.0.0",
     "emotion": "10.0.27"
   },
   "engines": {
