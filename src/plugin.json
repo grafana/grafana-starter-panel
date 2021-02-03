@@ -15,8 +15,8 @@
       "large": "img/logo.svg"
     },
     "links": [
-      {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
-      {"name": "License", "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"}
+      {"name": "Website", "url": "https://github.com/grafana/grafana-starter-panel"},
+      {"name": "License", "url": "https://github.com/grafana/grafana-starter-panel/blob/master/LICENSE"}
     ],
     "screenshots": [],
     "version": "%VERSION%",
@@ -24,7 +24,7 @@
   },
 
   "dependencies": {
-    "grafanaVersion": "7.0.x",
+    "grafanaDependency": ">=7.0.0",
     "plugins": []
   }
 }

@@ -1,27 +1,23 @@
 {
-  "name": "simple-react-panel",
+  "name": "simple-panel",
   "version": "1.0.0",
   "description": "Grafana Panel Plugin Template",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
     "dev": "grafana-toolkit plugin:dev",
-    "watch": "grafana-toolkit plugin:dev --watch"
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign"
   },
-  "repository": "github:grafana/simple-react-panel",
-  "author": "Grafana Labs <team@grafana.com> (https://grafana.com)",
+  "author": "Grafana Labs",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/grafana/simple-react-panel/issues",
-    "email": "plugins@grafana.com"
-  },
   "devDependencies": {
-    "@grafana/data": "^7.0.0",
-    "@grafana/toolkit": "^7.0.0",
-    "@grafana/ui": "^7.0.0",
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
     "emotion": "10.0.27"
   },
   "engines": {
-    "node": ">=12 <13"
+    "node": ">=14"
   }
 }
