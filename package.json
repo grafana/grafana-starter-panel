@@ -16,7 +16,8 @@
     "@grafana/data": "latest",
     "@grafana/toolkit": "latest",
     "@grafana/ui": "latest",
-    "emotion": "10.0.27"
+    "emotion": "10.0.27",
+    "react-router-dom": "^5.2.0"
   },
   "engines": {
     "node": ">=14"
