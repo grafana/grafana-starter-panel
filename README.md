@@ -1,3 +1,15 @@
+## ⚠️ Deprecated!
+
+**This repository is deprecated.** <br />
+A more up-to-date version of panel plugin examples is available here: https://github.com/grafana/grafana-plugin-examples#panel-plugins
+
+**Examples:**
+- [panel-basic](https://github.com/grafana/grafana-plugin-examples/blob/main/examples/panel-basic) - demonstrates how to build a panel plugin that uses the time series graph
+- [panel-flot](https://github.com/grafana/grafana-plugin-examples/blob/main/examples/panel-flot) - demonstrates how to use the Flot plotting library in a panel plugin.
+- [panel-plotly](https://github.com/grafana/grafana-plugin-examples/blob/main/examples/panel-plotly) - demonstrates how to use the Plotly graphing library in a panel plugin.
+
+---
+
 # Grafana Panel Plugin Template
 
 [![Build](https://github.com/grafana/grafana-starter-panel/workflows/CI/badge.svg)](https://github.com/grafana/grafana-starter-panel/actions?query=workflow%3A%22CI%22)
